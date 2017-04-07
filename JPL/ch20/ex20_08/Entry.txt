@@ -1,0 +1,14 @@
+Blank
+%%
+Byte
+Short
+Int
+Long
+%%
+Short
+Double
+%%
+Boolean
+%%
+Character
+String

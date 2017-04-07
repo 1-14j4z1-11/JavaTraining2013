@@ -1,0 +1,39 @@
+1. 3 << 2L - 1
+  -> 6 (int)
+
+2. (3L << 2) - 1
+  -> 11 (int)
+
+3. 10 < 12 == 6 > 17
+  -> false (boolean)
+
+4. 10 << 12 == 6 >> 17
+  -> false (boolean)
+
+5. 13.5e-1 % Float.POSITIVE_INFINITY
+  -> 1.35 (double)
+
+6. Float.POSITIVE_INFINITY + Double.NEGATIVE_INFINITY
+  -> NaN (double)
+
+7. Double.POSITIVE_INFINITY + Float.NEGATIVE_INFINITY
+  -> NaN (double)
+
+8. 0.0 / -0.0 == -0.0 / 0.0
+  -> false (boolean)
+
+9. Integer.MAX_VALUE + Integer.MIN_VALUE
+  -> -1 (int)
+
+10. Long.MAX_VALUE + 5
+  -> -9223372036854775804 (long)
+
+11. (short)5 * (byte)10
+  -> 50 (int)
+
+12. (i < 15 ? 1.72e3f : 0)
+  -> i‚ª15‚æ‚è¬‚³‚¢ F 1720
+           ‚»‚êˆÈŠO F 0
+
+13. i++ + i++ + --i  // i‚ÍÅ‰‚É3
+  -> 11 (int)

@@ -1,0 +1,20 @@
+・PassengerVehicleの定員数に負の値を設定
+　→IllegalArgumentException
+
+・初期設定ファイルに文法エラーがある
+　→ParseException
+
+・配列から文字列を検索する際に、検索対象が見つからなかった
+　→nullを返す
+
+・openで指定されたファイルが存在しない
+　→FileNotFoundException
+
+・openで指定されたフォルダが、セキュリティによりアクセスできない
+　→IOException
+
+・リモートマシンと接続できない
+　→ConnectIOException
+
+・ネットワークコネクションが切れる
+　→ConnectIOException

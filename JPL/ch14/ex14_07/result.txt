@@ -1,0 +1,24 @@
+args[] = true 3 Sunday Monday Tuesday
+
+
+1.
+Sunday
+Monday
+Monday
+Tuesday
+Sunday
+Sunday
+Tuesday
+Tuesday
+Monday
+
+2.
+Sunday
+Monday
+Sunday
+Tuesday
+Monday
+Tuesday
+Monday
+Tuesday
+Sunday
